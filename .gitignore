@@ -1,0 +1,55 @@
+
+# Object files, static libraries, and dynamic libraries
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executable files
+*.exe
+*.out
+*.bin
+
+# Build directories and intermediate files
+build/
+cmake-build-debug/
+.cmake/
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# Temporary files and editor swap files
+*.tmp
+*.swp
+*.bak
+*.swo
+*~
+
+# Log files
+*.log
+
+# Ignore generated Makefiles and configuration files
+Makefile
+Makefile.in
+config.status
+config.log
+configure
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# CTags and GTags files (for code navigation tools)
+tags
+TAGS
+.GPATH
+.GRTAGS
+.GSYMS
+.GTAGS
+
+# Ignore core dumps
+core
